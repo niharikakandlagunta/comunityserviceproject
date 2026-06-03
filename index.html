@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Access to Safe Drinking Water</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4fbff;
+    color:#333;
+}
+
+/* HERO */
+
+.hero{
+   
+    min-height:100vh;
+    background:linear-gradient(135deg,#0077b6,#00b4d8,#90e0ef);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:1.2rem;
+    margin-bottom:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:14px 30px;
+    background:white;
+    color:#0077b6;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-4px);
+}
+
+/* SECTION */
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.section-title h2{
+    color:#0077b6;
+    font-size:2.5rem;
+}
+
+.section-title p{
+    color:#666;
+}
+
+/* CARDS */
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0077b6;
+    margin-bottom:10px;
+}
+
+/* OBJECTIVES */
+
+.objectives ul{
+    max-width:900px;
+    margin:auto;
+}
+
+.objectives li{
+    margin:15px 0;
+    font-size:18px;
+}
+
+/* HIGHLIGHTS */
+
+.highlights{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.highlight{
+    background:white;
+    text-align:center;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+.highlight h3{
+    color:#0077b6;
+    font-size:2rem;
+}
+
+/* SURVEY BOX */
+
+.survey-box{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+/* TIPS */
+
+.tips{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.tip{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    text-align:center;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+/* GALLERY */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:25px;
+}
+
+.photo-card{
+    background:white;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+}
+
+.photo-card img{
+    width:100%;
+    height:280px;
+    object-fit:cover;
+}
+
+.photo-card p{
+    padding:15px;
+    text-align:center;
+    font-weight:500;
+}
+
+/* POSTER */
+
+.poster{
+    text-align:center;
+}
+
+/* CONCLUSION */
+
+.conclusion{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0077b6;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:2.5rem;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>💧 Access to Safe Drinking Water</h1>
+
+<p>Community Service Project (CSP)</p>
+<p>Prepared by BG-9 Group</p>
+<p>Narayana Engineering College</p>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section>
+
+<div class="section-title">
+<h2>📖 About the Project</h2>
+<p>Understanding access to safe drinking water through community surveys.</p>
+</div>
+
+<p style="text-align:center;font-size:18px;max-width:900px;margin:auto;">
+Safe drinking water is essential for human health and daily life.
+This project aims to study water availability, identify challenges,
+and create awareness about water purification and hygiene practices.
+</p>
+
+</section>
+
+<!-- PROBLEM -->
+
+<section>
+
+<div class="section-title">
+<h2>⚠️ Problem Statement</h2>
+</div>
+
+<div class="cards">
+
+<div class="card">
+<h3>🚰 Water Contamination</h3>
+<p>Unsafe water may contain pollutants and harmful microorganisms.</p>
+</div>
+
+<div class="card">
+<h3>🧼 Poor Sanitation</h3>
+<p>Poor sanitation affects water quality and public health.</p>
+</div>
+
+<div class="card">
+<h3>🦠 Water-Borne Diseases</h3>
+<p>Contaminated water can cause infections and diseases.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- OBJECTIVES -->
+
+<section class="objectives">
+
+<div class="section-title">
+<h2>🎯 Objectives</h2>
+</div>
+
+<ul>
+<li>✔ Study the availability of safe drinking water.</li>
+<li>✔ Identify sources of drinking water.</li>
+<li>✔ Understand challenges faced by people.</li>
+<li>✔ Analyze awareness about water purification methods.</li>
+<li>✔ Examine health issues caused by unsafe water.</li>
+<li>✔ Suggest improvements for access to safe drinking water.</li>
+</ul>
+
+</section>
+
+<!-- SURVEY HIGHLIGHTS -->
+
+<section>
+
+<div class="section-title">
+<h2>📊 Survey Highlights</h2>
+<p>Update these values with your actual survey results.</p>
+</div>
+
+<div class="highlights">
+
+<div class="highlight">
+<h3>25+</h3>
+<p>Respondents</p>
+</div>
+
+<div class="highlight">
+<h3>80%</h3>
+<p>Use Purified Water</p>
+</div>
+
+<div class="highlight">
+<h3>70%</h3>
+<p>Municipal/Borewell Water</p>
+</div>
+
+<div class="highlight">
+<h3>90%</h3>
+<p>Awareness Level</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- GOOGLE FORM -->
+
+<section>
+
+<div class="section-title">
+<h2>📝 Survey Form</h2>
+</div>
+
+<div class="survey-box">
+
+<p>Participate in our Safe Drinking Water Survey.</p>
+
+<a class="btn"
+href="https://docs.google.com/forms/d/e/1FAIpQLSfD37H3bp95yyvt8F226F_3xZ-bDeIBlWHLn2z3PTKmvGKXZQ/viewform"
+target="_blank">
+
+Open Google Form
+
+</a>
+
+</div>
+
+</section>
+
+<!-- SURVEY PHOTOS -->
+
+<section>
+
+<div class="section-title">
+<h2>📸 Survey Activities</h2>
+<p>Community interaction and data collection</p>
+</div>
+
+<div class="gallery">
+
+<div class="photo-card">
+<img src="csp/survey1.jpg.jpeg" alt="Survey Photo 1">
+<p>Survey Interaction with Local Residents</p>
+</div>
+
+<div class="photo-card">
+<img src="csp/survey2.jpg.jpeg" alt="Survey Photo 2">
+<p>Awareness and Data Collection Activity</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- POSTER -->
+
+
+
+<!-- POSTER -->
+
+<!-- POSTER -->
+
+<section>
+
+<div class="section-title">
+<h2>🖼️ Awareness Poster</h2>
+<p>Safe Drinking Water Awareness Campaign</p>
+</div>
+
+<div style="text-align:center;">
+
+<a href="csp/poster.jpg.jpeg" target="_blank">
+
+<img src="csp/poster.jpg.jpeg"
+     alt="Project Poster"
+     style="
+     width:300px;
+     border-radius:15px;
+     box-shadow:0 6px 15px rgba(0,0,0,0.15);
+     cursor:pointer;
+     transition:0.3s;
+     ">
+
+</a>
+
+<p style="margin-top:10px;color:#666;">
+Click the poster to view full size
+</p>
+
+</div>
+
+</section>
+
+<!-- TIPS -->
+
+<section>
+
+<div class="section-title">
+<h2>💡 Safe Water Tips</h2>
+</div>
+
+<div class="tips">
+
+<div class="tip">
+<h3>💧 Boil Water</h3>
+<p>Boil water before drinking.</p>
+</div>
+
+<div class="tip">
+<h3>🧪 Use Filters</h3>
+<p>Use RO or water filters.</p>
+</div>
+
+<div class="tip">
+<h3>🧼 Hygiene</h3>
+<p>Maintain cleanliness and sanitation.</p>
+</div>
+
+<div class="tip">
+<h3>🌱 Save Water</h3>
+<p>Avoid water wastage.</p>
+</div>
+
+</div>
+
+</section>
+
+<!-- CONCLUSION -->
+
+<section>
+
+<div class="section-title">
+<h2>✅ Conclusion</h2>
+</div>
+
+<div class="conclusion">
+
+Safe drinking water is essential for a healthy society.
+This project helped understand water accessibility, awareness levels,
+and challenges faced by the community while promoting safe water practices.
+
+</div>
+
+</section>
+
+<footer>
+
+<img src="csp/necn.jpg.jpeg" width="60">
+
+<h3>BG-9 Group</h3>
+<p>Narayana Engineering College</p>
+<p>Community Service Project (CSP)</p>
+
+</footer>
+
+</body>
+</html
